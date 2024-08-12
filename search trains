@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>train</title>
+        <body  align="center" >
+        <h1>train reservation system</h1><br>
+             <input type="search trains" id="search" name="search trains" value="search trains"><br>
+             <a href="abbbb.html">next</a>
+        </form>
+        </body>
+    </head>
+</html>
