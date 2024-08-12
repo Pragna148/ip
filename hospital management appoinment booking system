@@ -1,0 +1,46 @@
+<!DoCtype html>
+<html lang="en">
+    <head>
+        <meta chartset="UTF-8">
+        <meta name="viewport" content="width=device-width,intial scale=1.0">
+        <title>hospital management system</title>
+    </head>
+    <body bgcolor="pink" align="center">
+        <header>
+            <h1>hospital management appoinment booking system</h1>
+        </header>
+        <main>
+            <section id="search">
+                <h2>search for hospitals</h2>
+                <form action="#" method="get">
+                    <label for="location">location</label>
+                    <input type="text" id="location" name="location" placeholder="enter the location">
+                    <label for="specialty">specialty</lable>
+                        <select id="specialty" name="specialty">
+                            <option value="cardiology">cardiology</option>
+ <option value="sfj">cardiology</option>
+ <option value="cfy">cardiology</option> 
+<option value="cgy">cardiology</option>
+
+
+                        </select>
+
+                        <button type="submit">search</button>
+                        <section id="appoinment-booking">
+                            <h2>appoinment-booking</h2>
+                            <form action="#" method="post">
+                                <label for="doctor">doctor</label>
+                                <select id="doctor" name="doctor">
+                                    <option value="doc1">dr.vali</option>
+                                    <option value="doc2">dr.nagoor</option>
+                                </select>
+                                <label for="date">date</label>
+                                <input type="date" id="date" name="date">
+                                <label for="time">time</label>
+                                <input type="time" id="time" name="time">
+                                <button type="submit">book appoinment</button>
+                            </form>
+                        </section>
+                    </main>
+    </body>
+</html>
